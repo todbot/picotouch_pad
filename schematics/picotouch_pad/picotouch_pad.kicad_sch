@@ -364,6 +364,161 @@
 				)
 			)
 		)
+		(symbol "SK6812SIDE_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED1"
+				(at 0.508 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SK6812SIDE"
+				(at 0.508 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "todbot_stuff:LED-SMD_4P-L4.0-W1.6-L-keepout"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C5378721"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812SIDE_1_0_1"
+				(rectangle
+					(start -7.62 3.81)
+					(end 7.62 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -6.35 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SK6812SIDE_1_1_1"
+				(pin unspecified line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -1519,159 +1674,6 @@
 				)
 			)
 		)
-		(symbol "todbot_stuff:SK6805-EC3210R"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SK6805-EC3210R"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "todbot_stuff:LED-SMD_4P-L3.2-W1.5_SK6805-EC3210R"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C5378735"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SK6805-EC3210R_0_1"
-				(rectangle
-					(start -7.62 3.81)
-					(end 7.62 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -6.35 2.54)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 1.27 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 -1.27 0)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 -1.27 180)
-					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 1.27 180)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 288.29 173.99)
@@ -1810,6 +1812,50 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbae7917-6478-453c-90a7-06dae2e6722a")
+	)
+	(no_connect
+		(at 107.95 60.96)
+		(uuid "078e929d-5dcd-4b80-8755-eb89d86d2942")
+	)
+	(no_connect
+		(at 95.25 48.26)
+		(uuid "40a9031c-f27c-4973-87fd-13e2f703dc6a")
+	)
+	(no_connect
+		(at 95.25 53.34)
+		(uuid "5c71dcd0-7a9c-44e6-b3c5-eea13f742a7b")
+	)
+	(no_connect
+		(at 107.95 63.5)
+		(uuid "7027fd48-2ff7-4731-a13b-083041ade7cd")
+	)
+	(no_connect
+		(at 80.01 93.98)
+		(uuid "a93a3ba9-9d81-4ff1-ae7a-db85b34a9e88")
+	)
+	(no_connect
+		(at 336.55 124.46)
+		(uuid "ce1bf2b0-e732-4373-9473-182d81980cbf")
+	)
+	(no_connect
+		(at 74.93 93.98)
+		(uuid "dfb4d05d-6d62-497a-8425-8bfcd36e1f4c")
+	)
+	(no_connect
+		(at 97.79 40.64)
+		(uuid "e048c144-7a1a-4bdc-87c6-a9a4a9621d73")
+	)
+	(no_connect
+		(at 95.25 66.04)
+		(uuid "e51f57b8-7220-407b-911d-97216eaad395")
+	)
+	(no_connect
+		(at 95.25 43.18)
+		(uuid "e59b1a55-7c35-41e4-a8b6-9249a3c54152")
+	)
+	(no_connect
+		(at 77.47 93.98)
+		(uuid "eb32f968-262d-4aa5-b0d0-137cec31146f")
 	)
 	(wire
 		(pts
@@ -2523,6 +2569,26 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 40.64) (xy 95.25 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad33d818-0e0f-4004-a2ae-b8229795b1fa")
+	)
+	(wire
+		(pts
+			(xy 303.53 124.46) (xy 316.23 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1625bd8-7500-4a4b-b624-261abc830516")
+	)
+	(wire
+		(pts
 			(xy 171.45 39.37) (xy 184.15 39.37)
 		)
 		(stroke
@@ -2640,6 +2706,16 @@
 			(type default)
 		)
 		(uuid "c862cf8d-23f2-4f2f-83e4-762cf8f7e47a")
+	)
+	(wire
+		(pts
+			(xy 267.97 124.46) (xy 283.21 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cba8cd2c-d1cd-450e-87aa-40cc60b71553")
 	)
 	(wire
 		(pts
@@ -3462,6 +3538,155 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 283.21 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03dbe4a5-72a1-436b-b8c6-90088433a418")
+		(property "Reference" "#PWR0101"
+			(at 287.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 280.67 120.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 283.21 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee5db75a-5df3-48dc-b0c4-485f4338d286")
+		)
+		(instances
+			(project "picotouch_pad2a"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812SIDE_1")
+		(lib_id "todbot_stuff:SK6812SIDE")
+		(at 158.75 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "063641a4-0c5c-4b8a-b444-d5ffc1401c38")
+		(property "Reference" "LED13"
+			(at 158.242 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812SIDE"
+			(at 158.242 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "todbot_stuff:LED-SMD_4P-L4.0-W1.6-L-keepoutrev"
+			(at 158.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5378721"
+			(at 158.75 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a51e99d1-f41f-4671-bab8-48908463cf2d")
+		)
+		(pin "2"
+			(uuid "b58b8c3d-a926-4c94-9540-c25cfb4617c4")
+		)
+		(pin "4"
+			(uuid "bdd3d442-79d9-4cd0-a435-d7b71c7b7f97")
+		)
+		(pin "3"
+			(uuid "59c19be4-1571-48d6-80ee-14d66e2749ef")
+		)
+		(instances
+			(project "picotouch_pad2"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 201.93 177.8 0)
 		(unit 1)
@@ -3601,33 +3826,34 @@
 		)
 	)
 	(symbol
-		(lib_id "todbot_stuff:SK6805-EC3210R")
-		(at 161.29 38.1 0)
+		(lib_name "SK6812SIDE_1")
+		(lib_id "todbot_stuff:SK6812SIDE")
+		(at 226.06 66.04 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0cf59c30-f199-4709-9a84-00f576807d06")
-		(property "Reference" "LED1"
-			(at 161.544 32.512 0)
+		(uuid "09b01351-dab5-40ff-ba6c-c5025b226da9")
+		(property "Reference" "LED7"
+			(at 225.552 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SK6805-EC3210R"
-			(at 161.036 43.434 0)
+		(property "Value" "SK6812SIDE"
+			(at 225.552 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "todbot_stuff:LED-SMD_4P-L3.2-W1.5_SK6805-EC3210R-keepout"
-			(at 161.29 46.99 0)
+		(property "Footprint" "todbot_stuff:LED-SMD_4P-L4.0-W1.6-L-keepoutrev"
+			(at 226.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3636,7 +3862,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 38.1 0)
+			(at 226.06 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3645,7 +3871,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 38.1 0)
+			(at 226.06 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3653,31 +3879,31 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5378735"
-			(at 161.29 49.53 0)
+		(property "LCSC Part" "C5378721"
+			(at 226.06 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "4"
-			(uuid "5ced2632-b52b-4bc6-a3ef-77f2ec26a5a0")
-		)
-		(pin "2"
-			(uuid "95b3344b-addb-4714-9132-6aa4ee8b6796")
-		)
-		(pin "3"
-			(uuid "a6076534-3505-49ed-8cc7-b745a38e9f5c")
 		)
 		(pin "1"
-			(uuid "1a0b5e40-80fe-4d42-9935-11d646afd48e")
+			(uuid "56bfe2c8-b205-4f5d-9efd-7363ad56b20e")
+		)
+		(pin "2"
+			(uuid "3d377d8f-1448-4d5b-bf46-91c9aa4863c1")
+		)
+		(pin "4"
+			(uuid "4b250bd9-0f7b-48b6-a588-e5318725c2ef")
+		)
+		(pin "3"
+			(uuid "9364d26c-0dec-4659-839a-2269fcd5f30d")
 		)
 		(instances
-			(project ""
+			(project "picotouch_pad2"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
-					(reference "LED1")
+					(reference "LED7")
 					(unit 1)
 				)
 			)
@@ -3743,6 +3969,308 @@
 			(project "picotouch_mk2"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 314.96 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "151367fa-efde-4cf4-af28-20409850eb34")
+		(property "Reference" "C18"
+			(at 308.864 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 308.864 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 315.9252 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 314.96 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 314.96 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c929bc9b-99a2-4a99-945c-33faa5795c2a")
+		)
+		(pin "1"
+			(uuid "247d9107-bb13-4b9c-9fc6-891f075acea3")
+		)
+		(instances
+			(project "picotouch_pad2a"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812SIDE_1")
+		(lib_id "todbot_stuff:SK6812SIDE")
+		(at 191.77 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "156f6cdf-7ec2-4c0b-985d-51694fe81543")
+		(property "Reference" "LED10"
+			(at 191.262 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812SIDE"
+			(at 191.262 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "todbot_stuff:LED-SMD_4P-L4.0-W1.6-L-keepoutrev"
+			(at 191.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5378721"
+			(at 191.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a291d5d-74c4-442a-a6db-10777e59dfce")
+		)
+		(pin "2"
+			(uuid "eb1fbdf8-4486-4354-b0a0-64035d085a8d")
+		)
+		(pin "4"
+			(uuid "09e7cc59-26d7-4f9a-b434-8b23648fdbfc")
+		)
+		(pin "3"
+			(uuid "010fb2b3-378e-40dc-b2a0-fb34ca6cfc82")
+		)
+		(instances
+			(project "picotouch_pad2"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 316.23 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19add628-a118-47aa-9456-c100b128efee")
+		(property "Reference" "#PWR0105"
+			(at 320.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 313.69 120.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 316.23 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 316.23 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba54b09f-f2a6-40e0-9e59-5fdc9fd3a321")
+		)
+		(instances
+			(project "picotouch_pad2a"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812SIDE_1")
+		(lib_id "todbot_stuff:SK6812SIDE")
+		(at 161.29 38.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b2856fe-53cd-48b8-9537-c156fcb7bdb3")
+		(property "Reference" "LED1"
+			(at 160.782 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812SIDE"
+			(at 160.782 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "todbot_stuff:LED-SMD_4P-L4.0-W1.6-L-keepoutrev"
+			(at 161.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5378721"
+			(at 161.29 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "945a235b-60ef-4c5e-8dcd-81cfb55b38fa")
+		)
+		(pin "2"
+			(uuid "82141d7f-e9c3-40c1-b4cf-869e02a6f08d")
+		)
+		(pin "4"
+			(uuid "381dd323-9aab-4546-b68d-beb08acff363")
+		)
+		(pin "3"
+			(uuid "2da63e55-8282-48e4-a459-80a835a43de0")
+		)
+		(instances
+			(project ""
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -4147,42 +4675,34 @@
 		)
 	)
 	(symbol
-		(lib_id "todbot_stuff:SK6805-EC3210R")
-		(at 257.81 123.19 0)
-		(mirror y)
+		(lib_id "Device:C")
+		(at 281.94 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "26c59340-7aa3-478b-abea-9f7cc580dbd3")
-		(property "Reference" "LED16"
-			(at 258.064 117.602 0)
+		(uuid "26db4085-5b59-42b6-b0bd-fcfb5af9cbe6")
+		(property "Reference" "C17"
+			(at 275.844 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SK6805-EC3210R"
-			(at 257.556 128.524 0)
+		(property "Value" "100n"
+			(at 275.844 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "todbot_stuff:LED-SMD_4P-L3.2-W1.5_SK6805-EC3210R-keepout"
-			(at 257.81 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 123.19 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 282.9052 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4190,8 +4710,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 257.81 123.19 0)
+		(property "Datasheet" "~"
+			(at 281.94 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4199,31 +4719,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5378735"
-			(at 257.81 134.62 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 281.94 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "4"
-			(uuid "d2a8ba25-3eeb-4a43-8fb9-94562db1df6b")
 		)
 		(pin "2"
-			(uuid "2fd75eb0-4a0c-4bd8-89a1-4b4afc15d8be")
-		)
-		(pin "3"
-			(uuid "8e643f2c-5607-40e6-833c-a21ee8714d86")
+			(uuid "ddbe9c5d-5894-422b-bfa0-86836dd4fecf")
 		)
 		(pin "1"
-			(uuid "4ca21d38-6f95-4b07-9ea6-88c2b5ddd0c5")
+			(uuid "3d62b009-fb90-49af-afb6-0fdb37ca941d")
 		)
 		(instances
-			(project "picotouch_mk2"
+			(project "picotouch_pad2a"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
-					(reference "LED16")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -4699,6 +5213,90 @@
 		)
 	)
 	(symbol
+		(lib_name "SK6812SIDE_1")
+		(lib_id "todbot_stuff:SK6812SIDE")
+		(at 227.33 38.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b9acc80-ae8e-45b0-85f6-2804adf811df")
+		(property "Reference" "LED3"
+			(at 226.822 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812SIDE"
+			(at 226.822 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "todbot_stuff:LED-SMD_4P-L4.0-W1.6-L-keepoutrev"
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5378721"
+			(at 227.33 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "154c41f1-06ea-4974-a4a5-15d72ce20c8a")
+		)
+		(pin "2"
+			(uuid "dd3faf1a-5e5d-4f1c-b6d1-eef8600fda41")
+		)
+		(pin "4"
+			(uuid "18f6876c-9daa-4fad-9a40-d1d4410b8c07")
+		)
+		(pin "3"
+			(uuid "a520a971-b1d0-48de-8d45-11d4bc9964a3")
+		)
+		(instances
+			(project "picotouch_pad2"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 119.38 31.75 90)
 		(unit 1)
@@ -4763,33 +5361,34 @@
 		)
 	)
 	(symbol
-		(lib_id "todbot_stuff:SK6805-EC3210R")
-		(at 259.08 66.04 0)
+		(lib_name "SK6812SIDE_1")
+		(lib_id "todbot_stuff:SK6812SIDE")
+		(at 194.31 38.1 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "300b4c2a-9aca-420e-98f3-c8fd70f3e111")
-		(property "Reference" "LED8"
-			(at 259.334 60.452 0)
+		(uuid "30f5161a-2087-4ac5-9369-23793937d83e")
+		(property "Reference" "LED2"
+			(at 193.802 32.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SK6805-EC3210R"
-			(at 258.826 71.374 0)
+		(property "Value" "SK6812SIDE"
+			(at 193.802 43.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "todbot_stuff:LED-SMD_4P-L3.2-W1.5_SK6805-EC3210R-keepout"
-			(at 259.08 74.93 0)
+		(property "Footprint" "todbot_stuff:LED-SMD_4P-L4.0-W1.6-L-keepoutrev"
+			(at 194.31 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4798,7 +5397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 66.04 0)
+			(at 194.31 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4807,7 +5406,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 66.04 0)
+			(at 194.31 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4815,31 +5414,31 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5378735"
-			(at 259.08 77.47 0)
+		(property "LCSC Part" "C5378721"
+			(at 194.31 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "4"
-			(uuid "f172c60b-ae22-493b-97ea-0ff18fff9a69")
-		)
-		(pin "2"
-			(uuid "b0335610-da6a-427a-a9f1-7d580bb858d2")
-		)
-		(pin "3"
-			(uuid "2ecc8bcc-a04a-409e-8f45-08a915dbf434")
 		)
 		(pin "1"
-			(uuid "ea2510b2-f83c-4f96-a86e-5da268488c80")
+			(uuid "d92b50f3-9af0-49ff-97e5-82ef1348256d")
+		)
+		(pin "2"
+			(uuid "2728e609-076a-4554-947a-faefd72369be")
+		)
+		(pin "4"
+			(uuid "56dbcb28-79b0-474d-8950-6e29b40199a3")
+		)
+		(pin "3"
+			(uuid "3890207c-7acc-46a2-b87f-ec73657e5d1e")
 		)
 		(instances
-			(project "picotouch_mk2"
+			(project "picotouch_pad2"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
-					(reference "LED8")
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -5107,6 +5706,90 @@
 		)
 	)
 	(symbol
+		(lib_name "SK6812SIDE_1")
+		(lib_id "todbot_stuff:SK6812SIDE")
+		(at 259.08 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36c6dd75-50f9-4776-81b7-18a29f56599a")
+		(property "Reference" "LED8"
+			(at 258.572 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812SIDE"
+			(at 258.572 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "todbot_stuff:LED-SMD_4P-L4.0-W1.6-L-keepoutrev"
+			(at 259.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5378721"
+			(at 259.08 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23d55911-b7d2-4ca2-9d93-38c59a0b858f")
+		)
+		(pin "2"
+			(uuid "8e5f5549-d969-4385-b3bf-44b1ea28471d")
+		)
+		(pin "4"
+			(uuid "cdd36702-130f-45a1-822e-a875048952bf")
+		)
+		(pin "3"
+			(uuid "b1798ea9-e4aa-46ef-b108-3e3340e8599b")
+		)
+		(instances
+			(project "picotouch_pad2"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 232.41 177.8 0)
 		(unit 1)
@@ -5243,89 +5926,6 @@
 		)
 	)
 	(symbol
-		(lib_id "todbot_stuff:SK6805-EC3210R")
-		(at 193.04 66.04 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "375c04a2-7b2a-4b4e-a03a-8a3813a28be2")
-		(property "Reference" "LED6"
-			(at 193.294 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC3210R"
-			(at 192.786 71.374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "todbot_stuff:LED-SMD_4P-L3.2-W1.5_SK6805-EC3210R-keepout"
-			(at 193.04 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5378735"
-			(at 193.04 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "25cfb991-a0d7-4304-a881-f6bc75e1312e")
-		)
-		(pin "2"
-			(uuid "5b12a2d2-714c-46c0-9352-10d9902f5dfe")
-		)
-		(pin "3"
-			(uuid "42e2a9c7-3556-400a-85c6-a0d7c63512a1")
-		)
-		(pin "1"
-			(uuid "b269dd61-fdd9-41ff-bfc2-e7a27b1c0bbc")
-		)
-		(instances
-			(project "picotouch_mk2"
-				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
-					(reference "LED6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 95.25 50.8 270)
 		(unit 1)
@@ -5387,89 +5987,6 @@
 			(project ""
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "todbot_stuff:SK6805-EC3210R")
-		(at 191.77 123.19 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3b9e5cf5-9844-4be0-8529-9242f920765f")
-		(property "Reference" "LED14"
-			(at 192.024 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC3210R"
-			(at 191.516 128.524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "todbot_stuff:LED-SMD_4P-L3.2-W1.5_SK6805-EC3210R-keepout"
-			(at 191.77 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5378735"
-			(at 191.77 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "bf8d63ec-b317-4765-ab22-63a77ff185bd")
-		)
-		(pin "2"
-			(uuid "6f4e8b98-0ce8-4398-9542-3ca651d4bd50")
-		)
-		(pin "3"
-			(uuid "4368b860-9e7f-4b2c-b575-35951842d5e5")
-		)
-		(pin "1"
-			(uuid "c68cb626-ea56-4f61-bf2c-a11fbafe6499")
-		)
-		(instances
-			(project "picotouch_mk2"
-				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
-					(reference "LED14")
 					(unit 1)
 				)
 			)
@@ -5612,6 +6129,90 @@
 		)
 	)
 	(symbol
+		(lib_name "SK6812SIDE_1")
+		(lib_id "todbot_stuff:SK6812SIDE")
+		(at 158.75 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ebc5c64-926c-4a37-8db6-e85ab46bc4b4")
+		(property "Reference" "LED9"
+			(at 158.242 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812SIDE"
+			(at 158.242 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "todbot_stuff:LED-SMD_4P-L4.0-W1.6-L-keepoutrev"
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5378721"
+			(at 158.75 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1d17e2e-be7e-4138-9a6e-7689f094fba1")
+		)
+		(pin "2"
+			(uuid "460d505e-5529-4e86-b08f-bb74c8a0a762")
+		)
+		(pin "4"
+			(uuid "4279d361-af8f-4cf0-a2db-c014e90ab49c")
+		)
+		(pin "3"
+			(uuid "387de05e-0de9-48cc-9f09-be4111bf0c3d")
+		)
+		(instances
+			(project "picotouch_pad2"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 246.38 177.8 0)
 		(unit 1)
@@ -5676,6 +6277,90 @@
 			(project "picotouch_mk2"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812SIDE_1")
+		(lib_id "todbot_stuff:SK6812SIDE")
+		(at 224.79 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41163496-9b3d-4ab6-b97f-3c608e42dcb9")
+		(property "Reference" "LED15"
+			(at 224.282 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812SIDE"
+			(at 224.282 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "todbot_stuff:LED-SMD_4P-L4.0-W1.6-L-keepoutrev"
+			(at 224.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5378721"
+			(at 224.79 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97d6e106-b62c-4856-97df-9055417458f8")
+		)
+		(pin "2"
+			(uuid "66289674-7dc2-4734-b872-e9acc27551cb")
+		)
+		(pin "4"
+			(uuid "7833db15-55dd-455f-9c01-4b96badf8c52")
+		)
+		(pin "3"
+			(uuid "d9bb3f13-8bf0-455b-915b-36f53bf3ced5")
+		)
+		(instances
+			(project "picotouch_pad2"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "LED15")
 					(unit 1)
 				)
 			)
@@ -5879,89 +6564,6 @@
 		)
 	)
 	(symbol
-		(lib_id "todbot_stuff:SK6805-EC3210R")
-		(at 191.77 93.98 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "45914127-0c3e-46d4-829d-eae5c3e899da")
-		(property "Reference" "LED10"
-			(at 192.024 88.392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC3210R"
-			(at 191.516 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "todbot_stuff:LED-SMD_4P-L3.2-W1.5_SK6805-EC3210R-keepout"
-			(at 191.77 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5378735"
-			(at 191.77 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "fdb9205c-eff5-499c-ae28-b5bd81074521")
-		)
-		(pin "2"
-			(uuid "9a44b8f1-a7ec-4e4d-8f9e-42067d3918b0")
-		)
-		(pin "3"
-			(uuid "1e6722ab-84d6-42c3-a764-efc77ed4ddb8")
-		)
-		(pin "1"
-			(uuid "3a0847a5-7acd-4bd6-b8a2-7432a4c69ede")
-		)
-		(instances
-			(project "picotouch_mk2"
-				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
-					(reference "LED10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 214.63 92.71 90)
 		(unit 1)
@@ -6021,6 +6623,90 @@
 			(project "picotouch_mk2"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812SIDE_1")
+		(lib_id "todbot_stuff:SK6812SIDE")
+		(at 257.81 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4767bcef-ba0a-42f4-bcfd-9ccf0f34fb7e")
+		(property "Reference" "LED16"
+			(at 257.302 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812SIDE"
+			(at 257.302 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "todbot_stuff:LED-SMD_4P-L4.0-W1.6-L-keepoutrev"
+			(at 257.81 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5378721"
+			(at 257.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f89480f-4161-4154-b584-5f171b7c5278")
+		)
+		(pin "2"
+			(uuid "c63993d2-4f83-40ff-9fb1-2e10e75f6bb8")
+		)
+		(pin "4"
+			(uuid "3b8a20f7-ff3b-4b10-963d-d755bd9678ff")
+		)
+		(pin "3"
+			(uuid "dc21b284-1183-4dbb-a423-55c2247a4bec")
+		)
+		(instances
+			(project "picotouch_pad2"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "LED16")
 					(unit 1)
 				)
 			)
@@ -6425,6 +7111,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 336.55 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c0b0ef0-2a62-472d-a95b-96e447b90878")
+		(property "Reference" "#PWR0106"
+			(at 342.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 338.328 120.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 336.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f0c543b-6608-46da-afdf-e5ac94bdedba")
+		)
+		(instances
+			(project "picotouch_pad2a"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 213.36 177.8 0)
 		(unit 1)
@@ -6756,6 +7508,90 @@
 			(project "picotouch_mk2"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812SIDE_1")
+		(lib_id "todbot_stuff:SK6812SIDE")
+		(at 193.04 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "535924bf-3b1b-4161-bd1e-39e04a5dd620")
+		(property "Reference" "LED6"
+			(at 192.532 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812SIDE"
+			(at 192.532 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "todbot_stuff:LED-SMD_4P-L4.0-W1.6-L-keepoutrev"
+			(at 193.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5378721"
+			(at 193.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9d2e298-2b81-40da-9b4c-f4c0dfc02a5c")
+		)
+		(pin "2"
+			(uuid "5eab588a-77bc-4596-8272-135bcd34f664")
+		)
+		(pin "4"
+			(uuid "0a4c147a-7950-40ad-bbf9-9644b32ae42b")
+		)
+		(pin "3"
+			(uuid "df439c80-7390-4b37-aa73-84191063ca83")
+		)
+		(instances
+			(project "picotouch_pad2"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "LED6")
 					(unit 1)
 				)
 			)
@@ -7362,89 +8198,6 @@
 		)
 	)
 	(symbol
-		(lib_id "todbot_stuff:SK6805-EC3210R")
-		(at 224.79 123.19 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5ad05f66-438b-46d8-9b9f-f46b50694cc4")
-		(property "Reference" "LED15"
-			(at 225.044 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC3210R"
-			(at 224.536 128.524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "todbot_stuff:LED-SMD_4P-L3.2-W1.5_SK6805-EC3210R-keepout"
-			(at 224.79 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 224.79 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5378735"
-			(at 224.79 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "dc02fe2f-8987-4001-b15c-81c88e694221")
-		)
-		(pin "2"
-			(uuid "4d7527db-ba50-4d16-ad72-1be09ab11c9e")
-		)
-		(pin "3"
-			(uuid "1a1f0f92-4017-4bae-9c66-68d465fc468d")
-		)
-		(pin "1"
-			(uuid "bc8d22c3-f71c-4d52-b125-d02036b11c6d")
-		)
-		(instances
-			(project "picotouch_mk2"
-				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
-					(reference "LED15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "todbot_stuff:Capacitive_Button")
 		(at 274.32 173.99 0)
 		(unit 1)
@@ -7577,33 +8330,34 @@
 		)
 	)
 	(symbol
-		(lib_id "todbot_stuff:SK6805-EC3210R")
-		(at 194.31 38.1 0)
+		(lib_name "SK6812SIDE_1")
+		(lib_id "todbot_stuff:SK6812SIDE")
+		(at 191.77 123.19 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5d3b4cf3-9fd5-4b84-b6fc-c7c61f3d12c1")
-		(property "Reference" "LED2"
-			(at 194.564 32.512 0)
+		(uuid "5d22c299-5262-4e63-8fec-3baf02ecd9d4")
+		(property "Reference" "LED14"
+			(at 191.262 117.348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SK6805-EC3210R"
-			(at 194.056 43.434 0)
+		(property "Value" "SK6812SIDE"
+			(at 191.262 128.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "todbot_stuff:LED-SMD_4P-L3.2-W1.5_SK6805-EC3210R-keepout"
-			(at 194.31 46.99 0)
+		(property "Footprint" "todbot_stuff:LED-SMD_4P-L4.0-W1.6-L-keepoutrev"
+			(at 191.77 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7612,7 +8366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 38.1 0)
+			(at 191.77 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7621,7 +8375,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 38.1 0)
+			(at 191.77 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7629,31 +8383,31 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5378735"
-			(at 194.31 49.53 0)
+		(property "LCSC Part" "C5378721"
+			(at 191.77 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "4"
-			(uuid "45a2c15e-67a3-4570-a8fa-51dbaa718733")
-		)
-		(pin "2"
-			(uuid "dfb0db0a-e727-415f-853a-dd2b4912ae86")
-		)
-		(pin "3"
-			(uuid "785651a5-3942-4928-b0cb-3f4655309382")
 		)
 		(pin "1"
-			(uuid "1286f961-c42d-48c0-b645-904818959461")
+			(uuid "47f08d92-55b3-4ba7-a30f-4dc6f9629a07")
+		)
+		(pin "2"
+			(uuid "c947ef31-f37d-43d8-a4cb-bd8240bc7594")
+		)
+		(pin "4"
+			(uuid "a15eb09e-c74d-4e21-978d-e7e52fc2a5b5")
+		)
+		(pin "3"
+			(uuid "f1fb5a21-7ead-4653-b036-3277e713e3d5")
 		)
 		(instances
-			(project "picotouch_mk2"
+			(project "picotouch_pad2"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
-					(reference "LED2")
+					(reference "LED14")
 					(unit 1)
 				)
 			)
@@ -7991,6 +8745,155 @@
 		)
 	)
 	(symbol
+		(lib_name "SK6812SIDE_1")
+		(lib_id "todbot_stuff:SK6812SIDE")
+		(at 160.02 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66ce7777-819e-4480-9de8-07de40caf182")
+		(property "Reference" "LED5"
+			(at 159.512 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812SIDE"
+			(at 159.512 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "todbot_stuff:LED-SMD_4P-L4.0-W1.6-L-keepoutrev"
+			(at 160.02 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5378721"
+			(at 160.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41e86d58-9db4-4205-acae-02434e69ff42")
+		)
+		(pin "2"
+			(uuid "7fa882ad-4039-4041-9971-0dfc8953f99a")
+		)
+		(pin "4"
+			(uuid "85aef41c-64c7-4022-b609-a9f48bd18db6")
+		)
+		(pin "3"
+			(uuid "e143acdd-eb8f-4e5b-895f-1454af4195cb")
+		)
+		(instances
+			(project "picotouch_pad2"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 281.94 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "672b1c0a-7db5-4e90-9e82-2a07a5266a4a")
+		(property "Reference" "#PWR0100"
+			(at 281.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.892 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 281.94 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56535ca7-cc95-4307-b787-dcb72b842e3b")
+		)
+		(instances
+			(project "picotouch_pad2a"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 246.38 181.61 0)
 		(unit 1)
@@ -8057,172 +8960,6 @@
 		)
 	)
 	(symbol
-		(lib_id "todbot_stuff:SK6805-EC3210R")
-		(at 160.02 66.04 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "682350ff-1e32-4013-a66a-dcf63f5e82c9")
-		(property "Reference" "LED5"
-			(at 160.274 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC3210R"
-			(at 159.766 71.374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "todbot_stuff:LED-SMD_4P-L3.2-W1.5_SK6805-EC3210R-keepout"
-			(at 160.02 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5378735"
-			(at 160.02 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "081f5bb0-15a0-49fe-9382-3db0dfb45ec7")
-		)
-		(pin "2"
-			(uuid "e94cd1b1-6dc9-4e7d-bf2f-e49e5e685091")
-		)
-		(pin "3"
-			(uuid "8ca98a5c-f922-4455-b7c5-852ec7051c13")
-		)
-		(pin "1"
-			(uuid "b7b42c99-1012-4238-b408-87802869f542")
-		)
-		(instances
-			(project "picotouch_mk2"
-				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
-					(reference "LED5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "todbot_stuff:SK6805-EC3210R")
-		(at 158.75 123.19 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "68bf4f28-8ca0-4919-bc88-67b17b857535")
-		(property "Reference" "LED13"
-			(at 159.004 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC3210R"
-			(at 158.496 128.524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "todbot_stuff:LED-SMD_4P-L3.2-W1.5_SK6805-EC3210R-keepout"
-			(at 158.75 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5378735"
-			(at 158.75 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "bc352449-ba8a-47fd-a322-0143f6b22b43")
-		)
-		(pin "2"
-			(uuid "b2c8cf5a-1d43-455d-8700-4d3807f3afea")
-		)
-		(pin "3"
-			(uuid "55536e65-a2cd-42ee-b87d-5f6c547a3957")
-		)
-		(pin "1"
-			(uuid "95cbc3bb-91f7-4eb5-95b0-61fde1c2cf39")
-		)
-		(instances
-			(project "picotouch_mk2"
-				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
-					(reference "LED13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "todbot_stuff:Capacitive_Button")
 		(at 36.83 173.99 0)
 		(unit 1)
@@ -8283,6 +9020,90 @@
 			(project "picotouch_mk2"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812SIDE_1")
+		(lib_id "todbot_stuff:SK6812SIDE")
+		(at 293.37 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69cc3acb-881e-477b-b9d2-c321daa386cc")
+		(property "Reference" "LED17"
+			(at 292.862 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812SIDE"
+			(at 292.862 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "todbot_stuff:LED-SMD_4P-L4.0-W1.6-L-keepoutrev"
+			(at 293.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 293.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5378721"
+			(at 293.37 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43a0f264-03b5-4602-89eb-fc84d2c3a28d")
+		)
+		(pin "2"
+			(uuid "186d9344-9045-47d1-bd3b-bb218c27fc29")
+		)
+		(pin "4"
+			(uuid "b2b3a8ec-19db-4c8b-995e-88e3d774b0f0")
+		)
+		(pin "3"
+			(uuid "6f054361-ed17-4167-b270-6cc1cad424ad")
+		)
+		(instances
+			(project "picotouch_pad2a"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "LED17")
 					(unit 1)
 				)
 			)
@@ -8884,6 +9705,155 @@
 		)
 	)
 	(symbol
+		(lib_name "SK6812SIDE_1")
+		(lib_id "todbot_stuff:SK6812SIDE")
+		(at 260.35 38.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7523db6e-4016-4fe0-bd25-9d0ad24f0b6d")
+		(property "Reference" "LED4"
+			(at 259.842 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812SIDE"
+			(at 259.842 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "todbot_stuff:LED-SMD_4P-L4.0-W1.6-L-keepoutrev"
+			(at 260.35 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5378721"
+			(at 260.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af0c77c3-7290-4b5f-80e1-832db0752a64")
+		)
+		(pin "2"
+			(uuid "2c2ce392-68b4-458d-bf76-07d8c1f53b83")
+		)
+		(pin "4"
+			(uuid "cfcb1bfc-6264-4f2a-8980-a4da27aa748f")
+		)
+		(pin "3"
+			(uuid "43c516b1-7943-4d81-b772-2a5dae0efb39")
+		)
+		(instances
+			(project "picotouch_pad2"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 314.96 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75ac93a1-08e2-436a-8b0a-e8f4886f8ff6")
+		(property "Reference" "#PWR0104"
+			(at 314.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 311.912 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 314.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31ac1459-36b3-43eb-9ef4-7ce6467cbe30")
+		)
+		(instances
+			(project "picotouch_pad2a"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 119.38 26.67 90)
 		(unit 1)
@@ -8942,89 +9912,6 @@
 			(project ""
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "todbot_stuff:SK6805-EC3210R")
-		(at 260.35 38.1 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "78703e8e-bd6a-4d4a-983b-1d02efa05880")
-		(property "Reference" "LED4"
-			(at 260.604 32.512 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC3210R"
-			(at 260.096 43.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "todbot_stuff:LED-SMD_4P-L3.2-W1.5_SK6805-EC3210R-keepout"
-			(at 260.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 260.35 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5378735"
-			(at 260.35 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "ad2b0b5f-438f-4652-b831-8ec51bd371a8")
-		)
-		(pin "2"
-			(uuid "b004bd69-945d-49c4-bad8-146d55e43c20")
-		)
-		(pin "3"
-			(uuid "d5ffc51f-6e18-466c-bcc0-c2f418b4f5c9")
-		)
-		(pin "1"
-			(uuid "1ef1dbc6-564a-47b5-9b49-670d48f3a88b")
-		)
-		(instances
-			(project "picotouch_mk2"
-				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
-					(reference "LED4")
 					(unit 1)
 				)
 			)
@@ -9494,6 +10381,137 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 314.96 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81225b86-f799-4060-89dc-d3973493e190")
+		(property "Reference" "#PWR0103"
+			(at 314.96 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 311.15 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 314.96 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bdfe07b-30c6-48ac-a49a-f645772f2d1d")
+		)
+		(instances
+			(project "picotouch_pad2a"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 303.53 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81867a91-553c-429b-8dd9-8a486b63c341")
+		(property "Reference" "#PWR0102"
+			(at 309.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 305.308 120.396 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 303.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 303.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec072f44-ac9c-450c-80bd-cbffb9d3aeb4")
+		)
+		(instances
+			(project "picotouch_pad2a"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "todbot_stuff:Capacitive_Button")
 		(at 260.35 173.99 0)
 		(unit 1)
@@ -9759,6 +10777,71 @@
 			(project "picotouch_mk2"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 281.94 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b50dbb9-5efd-470b-9ec4-287a66658f8e")
+		(property "Reference" "#PWR099"
+			(at 281.94 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 278.13 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 281.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e167864-6fa5-42a6-95c6-e9fe32a5cdfb")
+		)
+		(instances
+			(project "picotouch_pad2a"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -10368,89 +11451,6 @@
 		)
 	)
 	(symbol
-		(lib_id "todbot_stuff:SK6805-EC3210R")
-		(at 226.06 66.04 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "96e36b4c-59b3-4402-95b4-e943aa27d9a2")
-		(property "Reference" "LED7"
-			(at 226.314 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC3210R"
-			(at 225.806 71.374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "todbot_stuff:LED-SMD_4P-L3.2-W1.5_SK6805-EC3210R-keepout"
-			(at 226.06 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5378735"
-			(at 226.06 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "c784968a-5038-4d2f-ac5c-2b14ef8ba9d8")
-		)
-		(pin "2"
-			(uuid "d3c4cce3-51fd-45e5-a30a-2d84910869f9")
-		)
-		(pin "3"
-			(uuid "627925a0-53d2-467a-8e12-d9d4565944b8")
-		)
-		(pin "1"
-			(uuid "2b467dea-7d16-4d3e-95e8-1b1d29f7d794")
-		)
-		(instances
-			(project "picotouch_mk2"
-				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
-					(reference "LED7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 171.45 36.83 90)
 		(unit 1)
@@ -10779,89 +11779,6 @@
 		)
 	)
 	(symbol
-		(lib_id "todbot_stuff:SK6805-EC3210R")
-		(at 227.33 38.1 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a517e433-a042-4adc-95e9-7bc28f3fba6c")
-		(property "Reference" "LED3"
-			(at 227.584 32.512 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC3210R"
-			(at 227.076 43.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "todbot_stuff:LED-SMD_4P-L3.2-W1.5_SK6805-EC3210R-keepout"
-			(at 227.33 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 227.33 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5378735"
-			(at 227.33 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "472d7e41-b272-4caa-8575-0b9f2136d7d1")
-		)
-		(pin "2"
-			(uuid "6c130022-5ddf-4c5d-b644-3039b9f8a7ac")
-		)
-		(pin "3"
-			(uuid "f886637a-69c7-42c7-a65d-549b463245fd")
-		)
-		(pin "1"
-			(uuid "6a9c9f51-d77f-4ad2-bc8b-3ed0dc56f912")
-		)
-		(instances
-			(project "picotouch_mk2"
-				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
-					(reference "LED3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 234.95 92.71 90)
 		(unit 1)
@@ -11118,89 +12035,6 @@
 			(project "picotouch_mk2"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "todbot_stuff:SK6805-EC3210R")
-		(at 257.81 93.98 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a7cff602-8f0f-4a69-b41a-1a4fc95675c1")
-		(property "Reference" "LED12"
-			(at 258.064 88.392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC3210R"
-			(at 257.556 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "todbot_stuff:LED-SMD_4P-L3.2-W1.5_SK6805-EC3210R-keepout"
-			(at 257.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 257.81 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5378735"
-			(at 257.81 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "73f648cb-8865-4e9f-b684-f102855f1b36")
-		)
-		(pin "2"
-			(uuid "dcda0f75-7d7d-4f2b-9bab-cb891ab8da4e")
-		)
-		(pin "3"
-			(uuid "0a57c3a6-044d-413b-a40c-84fb17db2c2d")
-		)
-		(pin "1"
-			(uuid "69a1d17b-8349-4d66-be71-39c0d581af35")
-		)
-		(instances
-			(project "picotouch_mk2"
-				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
-					(reference "LED12")
 					(unit 1)
 				)
 			)
@@ -11534,6 +12368,90 @@
 			(project "picotouch_mk2"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812SIDE_1")
+		(lib_id "todbot_stuff:SK6812SIDE")
+		(at 224.79 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac0992e0-f2f4-43fc-a13a-561c277c9e52")
+		(property "Reference" "LED11"
+			(at 224.282 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812SIDE"
+			(at 224.282 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "todbot_stuff:LED-SMD_4P-L4.0-W1.6-L-keepoutrev"
+			(at 224.79 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5378721"
+			(at 224.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ca2b398-7e88-4604-9520-c2cdd339efba")
+		)
+		(pin "2"
+			(uuid "36c0907e-cefa-4beb-91d3-558faf06d74d")
+		)
+		(pin "4"
+			(uuid "2d0ceac1-a61b-41ed-ac49-718ad21655e2")
+		)
+		(pin "3"
+			(uuid "e808d35d-a299-4c52-9fe1-8773a1865046")
+		)
+		(instances
+			(project "picotouch_pad2"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "LED11")
 					(unit 1)
 				)
 			)
@@ -12207,6 +13125,90 @@
 		)
 	)
 	(symbol
+		(lib_name "SK6812SIDE_1")
+		(lib_id "todbot_stuff:SK6812SIDE")
+		(at 257.81 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbadd437-59b1-4558-b7e2-8ee4bcdeccd1")
+		(property "Reference" "LED12"
+			(at 257.302 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812SIDE"
+			(at 257.302 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "todbot_stuff:LED-SMD_4P-L4.0-W1.6-L-keepoutrev"
+			(at 257.81 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5378721"
+			(at 257.81 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "739d3c85-67a1-43c8-8ac3-7d9f41d2aeec")
+		)
+		(pin "2"
+			(uuid "604ed086-8e7b-49a8-8ea3-81309d22b2e8")
+		)
+		(pin "4"
+			(uuid "3324aaaf-0e21-4e5d-82f2-ade8552bc4e4")
+		)
+		(pin "3"
+			(uuid "7eeca2f9-7cf7-4353-bbff-acdbef8dabe7")
+		)
+		(instances
+			(project "picotouch_pad2"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 246.38 115.57 0)
 		(unit 1)
@@ -12610,6 +13612,90 @@
 			(project "picotouch_mk2"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SK6812SIDE_1")
+		(lib_id "todbot_stuff:SK6812SIDE")
+		(at 326.39 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c40e5324-41ea-40ec-9acb-77a368043b89")
+		(property "Reference" "LED18"
+			(at 325.882 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812SIDE"
+			(at 325.882 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "todbot_stuff:LED-SMD_4P-L4.0-W1.6-L-keepoutrev"
+			(at 326.39 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 326.39 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5378721"
+			(at 326.39 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "580e6205-d313-47db-b2a5-1b7a1a7764b4")
+		)
+		(pin "2"
+			(uuid "39999c42-81b8-45c8-95ac-3a40a67194a4")
+		)
+		(pin "4"
+			(uuid "65261e65-cf23-4784-aeb7-e20c0c781854")
+		)
+		(pin "3"
+			(uuid "381f8d3e-2547-49a1-9c38-73d1c3352330")
+		)
+		(instances
+			(project "picotouch_pad2a"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "LED18")
 					(unit 1)
 				)
 			)
@@ -14537,89 +15623,6 @@
 		)
 	)
 	(symbol
-		(lib_id "todbot_stuff:SK6805-EC3210R")
-		(at 224.79 93.98 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e8703247-4b96-4d06-9618-fbfc39b43bb1")
-		(property "Reference" "LED11"
-			(at 225.044 88.392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC3210R"
-			(at 224.536 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "todbot_stuff:LED-SMD_4P-L3.2-W1.5_SK6805-EC3210R-keepout"
-			(at 224.79 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 224.79 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5378735"
-			(at 224.79 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "aba14505-4107-4436-92bb-b0c8902c9617")
-		)
-		(pin "2"
-			(uuid "7db5514e-a9cb-48e8-8306-e4ac64aca109")
-		)
-		(pin "3"
-			(uuid "a9b21947-2ce3-408d-8ffc-c072ad7e2d58")
-		)
-		(pin "1"
-			(uuid "f8afcd3d-8594-413e-9bef-a8e7b294d97b")
-		)
-		(instances
-			(project "picotouch_mk2"
-				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
-					(reference "LED11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "todbot_stuff:Capacitive_Button")
 		(at 189.23 173.99 0)
 		(unit 1)
@@ -14878,89 +15881,6 @@
 			(project "picotouch_mk2"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "#PWR086")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "todbot_stuff:SK6805-EC3210R")
-		(at 158.75 93.98 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f113b417-89b3-4663-a533-da0519fabe59")
-		(property "Reference" "LED9"
-			(at 159.004 88.392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805-EC3210R"
-			(at 158.496 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "todbot_stuff:LED-SMD_4P-L3.2-W1.5_SK6805-EC3210R-keepout"
-			(at 158.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5378735"
-			(at 158.75 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "12d2c629-c197-4f55-893a-32a2bc1189ed")
-		)
-		(pin "2"
-			(uuid "7f8fe7ac-3719-43c9-b7af-099691687a67")
-		)
-		(pin "3"
-			(uuid "a3b26caf-4ea3-4b2d-8520-2e35e5dff3ce")
-		)
-		(pin "1"
-			(uuid "a577d84e-9f38-4bc1-ab96-fa79f1190889")
-		)
-		(instances
-			(project "picotouch_mk2"
-				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
-					(reference "LED9")
 					(unit 1)
 				)
 			)
