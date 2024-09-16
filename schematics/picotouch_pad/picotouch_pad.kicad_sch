@@ -282,6 +282,218 @@
 				)
 			)
 		)
+		(symbol "Connector_Audio:AudioJack4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack4"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 4 Poles (TRRS)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones TRRS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack4_0_1"
+				(rectangle
+					(start -6.35 -5.08)
+					(end -7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 -5.08) (xy -5.08 -5.715) (xy -4.445 -5.08) (xy -4.445 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy -2.54 0) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -6.35 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AudioJack4_1_1"
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -3130,6 +3342,10 @@
 		(uuid "89e54f03-f410-44e0-8f4d-54c1bfd4d8e4")
 	)
 	(no_connect
+		(at 97.79 220.98)
+		(uuid "8fb5742b-74be-45ba-bc88-b49dcf43806c")
+	)
+	(no_connect
 		(at 80.01 93.98)
 		(uuid "a93a3ba9-9d81-4ff1-ae7a-db85b34a9e88")
 	)
@@ -3275,6 +3491,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 222.25) (xy 88.9 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "173d4137-5825-4eb6-a29d-b84c38cb227e")
+	)
+	(wire
+		(pts
 			(xy 173.99 173.99) (xy 177.8 173.99)
 		)
 		(stroke
@@ -3292,6 +3518,16 @@
 			(type default)
 		)
 		(uuid "18597dbb-fd19-4c7b-a278-4a17a32a0e9f")
+	)
+	(wire
+		(pts
+			(xy 97.79 215.9) (xy 88.9 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1987533d-e0da-4c3f-b757-6f9d28cc9dda")
 	)
 	(wire
 		(pts
@@ -3735,6 +3971,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 215.9) (xy 81.28 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "774fb3b7-8219-4144-9ad1-bdc9ec2af624")
+	)
+	(wire
+		(pts
 			(xy 102.87 143.51) (xy 102.87 146.05)
 		)
 		(stroke
@@ -3945,6 +4191,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 218.44) (xy 90.17 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4df4756-1910-43e2-80cd-da8878d96129")
+	)
+	(wire
+		(pts
 			(xy 48.26 48.26) (xy 59.69 48.26)
 		)
 		(stroke
@@ -3992,6 +4248,16 @@
 			(type default)
 		)
 		(uuid "ad33d818-0e0f-4004-a2ae-b8229795b1fa")
+	)
+	(wire
+		(pts
+			(xy 97.79 223.52) (xy 95.25 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae946272-71a8-47ef-8d4c-ff3deeb75d26")
 	)
 	(wire
 		(pts
@@ -4142,6 +4408,16 @@
 			(type default)
 		)
 		(uuid "c2db55cb-121c-48e1-96c1-b0e4ee7d6d79")
+	)
+	(wire
+		(pts
+			(xy 97.79 218.44) (xy 90.17 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5860fb0-579a-4418-822f-5f3e5558f975")
 	)
 	(wire
 		(pts
@@ -4469,6 +4745,17 @@
 		)
 		(uuid "0b322dde-2323-4855-bce6-aa9afcc6ee3b")
 	)
+	(label "MIDI_OUT"
+		(at 40.64 215.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1a3d3c1e-78a8-4235-a4e3-10a1e66c5caf")
+	)
 	(label "TOUCH16"
 		(at 48.26 40.64 0)
 		(fields_autoplaced yes)
@@ -4667,6 +4954,17 @@
 		)
 		(uuid "5fd0a85a-6d99-4997-8a5b-219acaab030d")
 	)
+	(label "LED_DAT"
+		(at 99.06 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63773241-6997-4b38-a95a-60f2c976e82c")
+	)
 	(label "TOUCH20"
 		(at 99.06 78.74 0)
 		(fields_autoplaced yes)
@@ -4732,6 +5030,17 @@
 			(justify left bottom)
 		)
 		(uuid "84dccf8b-f549-4a9b-b81f-715d096f06b8")
+	)
+	(label "MIDI_OUT"
+		(at 99.06 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85024378-07d8-42cc-bccd-98db1ab68f73")
 	)
 	(label "TOUCH20"
 		(at 347.98 165.1 0)
@@ -4875,17 +5184,6 @@
 			(justify left bottom)
 		)
 		(uuid "c3364240-d3c0-47e6-bba8-93c5ba58a3ce")
-	)
-	(label "LED_DAT"
-		(at 99.06 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ceca05e2-6327-453e-bc32-77146836f98d")
 	)
 	(label "TOUCH8"
 		(at 185.42 165.1 0)
@@ -7673,6 +7971,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 95.25 223.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3854fce3-1a4b-49ac-8e7d-1c928f28d891")
+		(property "Reference" "#PWR0122"
+			(at 95.25 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 225.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab182803-d011-4478-9106-175b44258811")
+		)
+		(instances
+			(project "picotouch_pad"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 95.25 50.8 270)
 		(unit 1)
@@ -10094,6 +10458,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 85.09 222.25 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "570a13e2-ce1c-445b-87a4-5db2de619b29")
+		(property "Reference" "R27"
+			(at 85.344 220.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 85.344 224.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 85.09 224.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22112056-5ee0-4713-9627-1253173d5075")
+		)
+		(pin "2"
+			(uuid "0ded7537-0d0e-40b2-9580-428df2d8fdfa")
+		)
+		(instances
+			(project "picotouch_pad"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 181.61 121.92 90)
 		(unit 1)
@@ -11794,6 +12226,74 @@
 			(project "picotouch_mk2"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 81.28 222.25 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "733e3187-2ad5-44e6-a7ed-2f7bfb1ffd22")
+		(property "Reference" "#PWR0121"
+			(at 85.09 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 77.47 222.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 81.28 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84a9b319-56ee-45c2-9509-5e3f8e6530aa")
+		)
+		(instances
+			(project "picotouch_pad"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -14292,6 +14792,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:AudioJack4")
+		(at 102.87 220.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4c96bd7-f10a-4c8a-8dea-6a176b783530")
+		(property "Reference" "J1"
+			(at 111.76 217.8049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AudioJack4"
+			(at 111.76 220.3449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "todbot_stuff:Jack_3.5mm_PJ320D_Horizontal"
+			(at 102.87 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 4 Poles (TRRS)"
+			(at 102.87 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C431535"
+			(at 199.39 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "2b684b14-063b-489b-9c75-9806c7631092")
+		)
+		(pin "T"
+			(uuid "014abbcc-220f-421c-b799-79c39b47cfc1")
+		)
+		(pin "R1"
+			(uuid "31288404-95c2-4134-83f6-2ecd1bfb8895")
+		)
+		(pin "R2"
+			(uuid "aab08711-dcea-4542-80e8-9b206e6350fa")
+		)
+		(instances
+			(project "picotouch_pad"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 234.95 92.71 90)
 		(unit 1)
@@ -16190,6 +16775,74 @@
 			(project "picotouch_mk2"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 85.09 215.9 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfd28807-4a57-4bc2-beca-cb79509c09aa")
+		(property "Reference" "R26"
+			(at 85.344 213.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 85.344 217.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 85.09 217.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f49800a8-671c-4f27-855b-5df5dc51fafa")
+		)
+		(pin "2"
+			(uuid "ba23fb89-0147-4f35-906b-48cd4c802dae")
+		)
+		(instances
+			(project "picotouch_pad"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "R26")
 					(unit 1)
 				)
 			)
