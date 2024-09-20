@@ -3220,6 +3220,12 @@
 		(uuid "6f0a5c3c-07e1-4036-9521-185b680735f3")
 	)
 	(junction
+		(at 389.89 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73297106-4872-4753-b60c-3fc44ba3ea3f")
+	)
+	(junction
 		(at 327.66 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3322,20 +3328,12 @@
 		(uuid "fbae7917-6478-453c-90a7-06dae2e6722a")
 	)
 	(no_connect
-		(at 91.44 53.34)
-		(uuid "078e929d-5dcd-4b80-8755-eb89d86d2942")
-	)
-	(no_connect
 		(at 78.74 40.64)
 		(uuid "40a9031c-f27c-4973-87fd-13e2f703dc6a")
 	)
 	(no_connect
 		(at 78.74 45.72)
 		(uuid "5c71dcd0-7a9c-44e6-b3c5-eea13f742a7b")
-	)
-	(no_connect
-		(at 91.44 55.88)
-		(uuid "7027fd48-2ff7-4731-a13b-083041ade7cd")
 	)
 	(no_connect
 		(at 36.83 139.7)
@@ -3991,6 +3989,16 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 219.71) (xy 389.89 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a0c3f81-4499-41b5-86d5-69493f5dc8ef")
+	)
+	(wire
+		(pts
 			(xy 248.92 187.96) (xy 252.73 187.96)
 		)
 		(stroke
@@ -4508,6 +4516,16 @@
 			(type default)
 		)
 		(uuid "d41b8e6d-402f-4ea0-99c9-d111a3f910e0")
+	)
+	(wire
+		(pts
+			(xy 386.08 210.82) (xy 386.08 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d59a3750-ef01-4332-bace-2229ba581b88")
 	)
 	(wire
 		(pts
@@ -5120,6 +5138,17 @@
 		)
 		(uuid "9b861f41-d358-4591-8e5a-8107e8b82bc6")
 	)
+	(label "TOUCH24"
+		(at 82.55 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c73820e-12b8-4506-b1f2-721dc8059b51")
+	)
 	(label "TOUCH4"
 		(at 226.06 180.34 0)
 		(fields_autoplaced yes)
@@ -5241,6 +5270,17 @@
 		)
 		(uuid "d725cd46-2b55-46d7-b68c-42d60a1ec2cf")
 	)
+	(label "TOUCH24"
+		(at 386.08 210.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7444f43-3c87-4138-9d68-3a56aa528584")
+	)
 	(label "TOUCH10"
 		(at 298.45 179.07 0)
 		(fields_autoplaced yes)
@@ -5284,6 +5324,72 @@
 			(justify left bottom)
 		)
 		(uuid "fc3be918-cf54-4792-9b5c-88689b9f5375")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 389.89 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00312663-dca0-47a7-a530-71b4d4ff3aa3")
+		(property "Reference" "#PWR0123"
+			(at 389.89 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 389.89 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 389.89 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 389.89 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 389.89 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89e343a4-4883-4573-8fd6-ea88e6dd4c15")
+		)
+		(instances
+			(project "picotouch_pad"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -19397,6 +19503,72 @@
 	)
 	(symbol
 		(lib_id "todbot_stuff:Capacitive_Button")
+		(at 389.89 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9477815-7da8-438a-bb4b-73482bbafb38")
+		(property "Reference" "PAD24"
+			(at 392.43 214.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1"
+			(at 392.43 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "todbot_stuff:Pad-CapTouch-10x5mm-roundrect"
+			(at 389.89 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 389.89 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitive touch pad"
+			(at 389.89 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f951a4b-8346-43d4-8e14-9160c9e1fa73")
+		)
+		(instances
+			(project "picotouch_pad"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "PAD24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "todbot_stuff:Capacitive_Button")
 		(at 353.06 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20385,6 +20557,76 @@
 			(project "picotouch_mk2"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "PAD7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 389.89 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb3b83cf-b39a-4200-bc5b-7cdcae7d1863")
+		(property "Reference" "R28"
+			(at 392.43 222.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M"
+			(at 392.43 224.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 388.112 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 389.89 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 389.89 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ad1ce53-0cba-4fa2-9bff-598e9b03e79b")
+		)
+		(pin "2"
+			(uuid "079423fa-16a6-45aa-a1ec-43e9efedd83e")
+		)
+		(instances
+			(project "picotouch_pad"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "R28")
 					(unit 1)
 				)
 			)
