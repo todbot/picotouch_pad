@@ -139,17 +139,17 @@ while True:
             elif i == PAD_A_UP:  # mod wheel
                 leds.fill(0x005555)
                 leds.show()
-                pass
+                midi_usb.send(tmidi.Message(tmidi.CC, midi_chan-1, 1, 127))
             elif i == PAD_A_DOWN: # mod wheel
                 leds.fill(0x005555)
                 leds.show()
-                pass
+                midi_usb.send(tmidi.Message(tmidi.CC, midi_chan-1, 1, 0))
             elif i == PAD_C_LEFT: # octave down
-                
-                pass
+                midi_octave = max(midi_octave-1, 0)
+                leds.fill(0x550000)
             elif i == PAD_C_RIGHT: # octove up
-                pass
-                #leds[i-num_leds] = 0xffffff
+                midi_octave = min(midi_octave+1, 8)
+                leds.fill(0x550000)
         #if t.fell:
         if released:
             print(time.monotonic(), i, "release", traw)
