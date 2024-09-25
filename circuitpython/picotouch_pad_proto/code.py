@@ -1,3 +1,7 @@
+# picotouch_pad_proto code.py -- demo for picotouch_pad_proto
+# 1 Sep 2024 - @todbot / Tod Kurt
+# Part of https://github.com/todbot/picotouch_pad
+
 import time
 import board
 import touchio
@@ -87,9 +91,6 @@ if touch_ins[0].raw_value > 1200:  # hold down "1" key
 
 print("picotouch_pad_proto: started")
 
-def midi_receive():
-    if msg := midi_usb.receive():
-         print("hi", msg)
     
 last_time = 0
 dim_by = 5
@@ -97,7 +98,24 @@ touch_state = [ False ] * num_pads  # our simple debouncer
 pressed_notes = [ 0 ] * num_leds  # FIXME: should be 'num_note_pads' or similar
 select_held = False
 
+def midi_receive():
+    while msg := midi_usb.receive():
+        print("hi", msg)
+        if msg.type == tmidi.NOTE_ON:
+            notei = msg.note - midi_octave*12
+            if notei > 0 and notei < num_leds:
+                leds[notei] = rainbowio.colorwheel(time.monotonic()*150)
+                pressed_notes[notei] = msg.note
+        elif msg.type == tmidi.NOTE_OFF:
+            notei = msg.note - midi_octave*12
+            if notei > 0 and notei < num_leds:
+                #pressed_notes[notei] = msg.note
+                pass
+
+
 while True:
+    midi_receive()
+    
     if select_held:
         leds.fill(0x330033)
     leds[:] = [[max(i-dim_by,0) for i in l] for l in leds] # dim LEDs by (dim_by,dim_by,dim_by)
