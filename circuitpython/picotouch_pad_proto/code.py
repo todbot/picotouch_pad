@@ -10,6 +10,7 @@ import usb_midi
 import neopixel
 import tmidi
 from adafruit_debouncer import Debouncer
+from supervisor import ticks_ms
 
 print("picotouch_pad_proto!")
 
@@ -53,6 +54,8 @@ for pin in touch_pins:
     touches.append(touch)
 num_pads = len(touch_ins)
 
+colors = [ (255,0,0), (0,255,0), (33,66,33) ]
+
 
 ### startup demo
 for i in range(num_leds):
@@ -86,7 +89,7 @@ if touch_ins[0].raw_value > 1200:  # hold down "1" key
     else:
         print("aborted going into bootloader")
     microcontroller.reset()
-    
+
 ########
 
 print("picotouch_pad_proto: started")
@@ -97,6 +100,12 @@ dim_by = 5
 touch_state = [ False ] * num_pads  # our simple debouncer
 pressed_notes = [ 0 ] * num_leds  # FIXME: should be 'num_note_pads' or similar
 select_held = False
+
+mod_speed_ms = 10
+mod_inc_default = 2
+mod_inc = 0
+mod_val = 0
+mod_last_ms = 0
 
 def midi_receive():
     while msg := midi_usb.receive():
@@ -112,7 +121,6 @@ def midi_receive():
                 #pressed_notes[notei] = msg.note
                 pass
 
-
 while True:
     midi_receive()
     
@@ -120,6 +128,19 @@ while True:
         leds.fill(0x330033)
     leds[:] = [[max(i-dim_by,0) for i in l] for l in leds] # dim LEDs by (dim_by,dim_by,dim_by)
     leds.show()
+
+    now = ticks_ms()
+    # handle mod wheel ramping up/down 
+    if now - mod_last_ms  > mod_speed_ms:
+        mod_last_ms = ticks_ms()
+        if mod_inc != 0:
+            mod_val = min(max(mod_val + mod_inc, 0), 127) 
+            midi_usb.send(tmidi.Message(tmidi.CC, midi_chan-1, 1, mod_val))
+            #if mod_val in (0,127): mod_inc = 0
+            ledn = 1 + (8) * mod_val // 128
+            leds[0:0+ledn] = [0x005555] * ledn
+            leds[8:8+ledn] = [0x005555] * ledn
+            print("mod_val:",mod_val,"ledn:",ledn)
     
     #for i,t in enumerate(touches):
     #    t.update()
@@ -143,25 +164,21 @@ while True:
             elif i == PAD_B_UP:   # pitch bend
                 print("pitch up!")
                 leds.fill(0x000055)
-                leds.show()
                 msg_pb_up = tmidi.Message(tmidi.PITCH_BEND, midi_chan-1, 8191)
                 #msg_pb_up.pitch_bend = 8191
                 midi_usb.send(msg_pb_up)
             elif i == PAD_B_DOWN:  # pitch bend
                 print("pitch down!")
                 leds.fill(0x000055)
-                leds.show()
                 msg_pb_dn = tmidi.Message(tmidi.PITCH_BEND, midi_chan-1, -8191)
                 #msg_pb_dn.pitch_bend = -8191
                 midi_usb.send(msg_pb_dn)
             elif i == PAD_A_UP:  # mod wheel
-                leds.fill(0x005555)
-                leds.show()
-                midi_usb.send(tmidi.Message(tmidi.CC, midi_chan-1, 1, 127))
+                print("mod up!")
+                mod_inc = mod_inc_default
             elif i == PAD_A_DOWN: # mod wheel
-                leds.fill(0x005555)
-                leds.show()
-                midi_usb.send(tmidi.Message(tmidi.CC, midi_chan-1, 1, 0))
+                print("mod down!")
+                mod_inc = -mod_inc_default
             elif i == PAD_C_LEFT: # octave down
                 midi_octave = max(midi_octave-1, 0)
                 leds.fill(0x550000)
@@ -177,6 +194,10 @@ while True:
                 midi_usb.send(msg_off)
             elif i == PAD_SELECT:
                 select_held = False
+            elif i == PAD_A_UP:  # mod wheel
+                mod_inc = 0
+            elif i == PAD_A_DOWN:  # mod wheel
+                mod_inc = 0
             elif i == PAD_B_DOWN:
                 msg_pb_dn = tmidi.Message(tmidi.PITCH_BEND, midi_chan-1, 0)
                 midi_usb.send(msg_pb_dn)
