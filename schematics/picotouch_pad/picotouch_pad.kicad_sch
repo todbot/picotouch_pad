@@ -2032,6 +2032,126 @@
 				)
 			)
 		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "todbot_stuff:Capacitive_Button"
 			(pin_names
 				(offset 0) hide)
@@ -3148,6 +3268,12 @@
 		)
 	)
 	(junction
+		(at 63.5 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07e1f15a-d74c-4543-9a03-129bcbce9041")
+	)
+	(junction
 		(at 349.25 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3298,6 +3424,12 @@
 		(uuid "e6c4e3b0-b2ae-44e1-a134-6865af315ae4")
 	)
 	(junction
+		(at 57.15 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7f76ad5-97fe-4e42-be40-456408345020")
+	)
+	(junction
 		(at 85.09 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3435,6 +3567,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 121.92) (xy 63.5 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "062191df-f5dc-4130-b48c-438c8c1c0264")
+	)
+	(wire
+		(pts
 			(xy 85.09 132.08) (xy 97.79 132.08)
 		)
 		(stroke
@@ -3502,6 +3644,16 @@
 			(type default)
 		)
 		(uuid "1382300c-a120-4dee-a5e5-6f49d901fa8b")
+	)
+	(wire
+		(pts
+			(xy 46.99 116.84) (xy 43.18 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16fa5258-d7b9-43e7-84e6-492bac020d3d")
 	)
 	(wire
 		(pts
@@ -3915,6 +4067,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 121.92) (xy 57.15 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f20f8cb-f8f7-41ec-ace6-5eda0d75ff87")
+	)
+	(wire
+		(pts
 			(xy 254 45.72) (xy 266.7 45.72)
 		)
 		(stroke
@@ -4295,7 +4457,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 33.02) (xy 78.74 33.02)
+			(xy 85.09 33.02) (xy 78.74 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4525,6 +4687,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 116.84) (xy 29.21 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce2bbbca-e70a-47a4-9813-7f4582383781")
+	)
+	(wire
+		(pts
 			(xy 372.11 210.82) (xy 372.11 219.71)
 		)
 		(stroke
@@ -4615,7 +4787,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 127) (xy 29.21 139.7)
+			(xy 29.21 128.27) (xy 29.21 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4744,8 +4916,8 @@
 		(uuid "fba53a06-f933-4506-b56d-2e505291b357")
 	)
 	(rectangle
-		(start 15.24 110.49)
-		(end 122.555 173.355)
+		(start 15.24 107.315)
+		(end 122.555 167.005)
 		(stroke
 			(width 0)
 			(type default)
@@ -4768,7 +4940,7 @@
 	)
 	(text "adapted from Adafruit Lipoly BFF"
 		(exclude_from_sim no)
-		(at 88.646 170.688 0)
+		(at 88.9 164.084 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5935,6 +6107,72 @@
 			(project "picotouch_pad2"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 63.5 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b0b10ce-e7a7-44a3-9b2f-4d489924f458")
+		(property "Reference" "#PWR0108"
+			(at 63.5 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 63.246 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 63.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56c59f49-306a-4c43-8346-b7997db6ff87")
+		)
+		(instances
+			(project "picotouch_pad"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -7528,6 +7766,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 29.21 116.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ba143a7-7e50-40cf-aede-5d08b91e6522")
+		(property "Reference" "#PWR0117"
+			(at 29.21 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 29.21 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 29.21 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6000f5a2-1d3b-4940-95f9-b63d09433c90")
+		)
+		(instances
+			(project "picotouch_pad"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 116.84 38.1 90)
 		(unit 1)
@@ -7800,6 +8104,72 @@
 			(project "picotouch_pad"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 85.09 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "325508e8-237c-4b67-974f-9e0fbd771dfc")
+		(property "Reference" "#PWR0109"
+			(at 85.09 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 85.09 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 85.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a8ed388-2de3-41e5-bcc8-20ba06c074a6")
+		)
+		(instances
+			(project ""
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -9288,72 +9658,6 @@
 			(project "picotouch_mk2"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "PAD15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 63.5 121.92 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "49cc61a2-b0d8-47a6-aba9-7f79aed545a4")
-		(property "Reference" "#PWR0119"
-			(at 63.5 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 66.04 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 63.5 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef3f6355-b2ed-48dd-811b-ab42f07dc2c1")
-		)
-		(instances
-			(project "picotouch_pad"
-				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
-					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -11391,72 +11695,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 81.28 33.02 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "63919a2a-5530-44a7-b17c-b15f72d38d18")
-		(property "Reference" "#PWR0120"
-			(at 81.28 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 80.01 29.464 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 81.28 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b234c44d-a239-4931-b520-8d96b4ce4bb9")
-		)
-		(instances
-			(project "picotouch_pad"
-				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
-					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 295.91 85.09 0)
 		(unit 1)
@@ -12554,7 +12792,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 29.21 127 0)
+		(at 29.21 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12562,7 +12800,7 @@
 		(dnp no)
 		(uuid "74b3cee2-55bc-4d6d-91c8-432b4a81e1f2")
 		(property "Reference" "#PWR0115"
-			(at 29.21 130.81 0)
+			(at 29.21 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12571,7 +12809,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 29.21 121.92 0)
+			(at 29.21 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12579,7 +12817,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 127 0)
+			(at 29.21 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12588,7 +12826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 127 0)
+			(at 29.21 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12597,7 +12835,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 29.21 127 0)
+			(at 29.21 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13781,72 +14019,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 46.99 121.92 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87c0c73e-60f0-4180-bcff-891ad5c51359")
-		(property "Reference" "#PWR0117"
-			(at 46.99 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 49.53 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 46.99 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2cfd45d7-eab8-42e3-839c-430f456e7439")
-		)
-		(instances
-			(project "picotouch_pad"
-				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
-					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 219.71 71.12 90)
 		(unit 1)
@@ -14777,6 +14949,83 @@
 			(project "picotouch_mk2"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 39.37 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a4b880e-0f6b-4e7f-b70a-c78462579826")
+		(property "Reference" "D3"
+			(at 39.6875 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBR120"
+			(at 39.6875 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 39.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 39.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C130880"
+			(at 39.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "832a2040-b038-4e1f-8090-6d172644f47a")
+		)
+		(pin "2"
+			(uuid "28f632b3-0169-4f41-b695-7856c9479c2a")
+		)
+		(instances
+			(project "picotouch_pad"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -17533,71 +17782,6 @@
 			(project "picotouch_mk2"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 57.15 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c92267d0-a0b6-4837-83ac-24ca10fce4a3")
-		(property "Reference" "#PWR0109"
-			(at 57.15 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 57.15 118.618 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 57.15 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2594f489-4004-41e6-9bc0-91737ac757da")
-		)
-		(instances
-			(project "picotouch_pad"
-				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
-					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -20607,6 +20791,71 @@
 			(project "picotouch_pad"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 46.99 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb7591fd-9fd4-40b2-9160-2e2012e7e95b")
+		(property "Reference" "#PWR0119"
+			(at 46.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 47.244 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 46.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44987f68-2fc3-40bc-87b7-b7c2a7a4477f")
+		)
+		(instances
+			(project "picotouch_pad"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
