@@ -890,6 +890,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "SK6812SIDE_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3486,10 +3568,6 @@
 		(uuid "a93a3ba9-9d81-4ff1-ae7a-db85b34a9e88")
 	)
 	(no_connect
-		(at 386.08 130.81)
-		(uuid "ce1bf2b0-e732-4373-9473-182d81980cbf")
-	)
-	(no_connect
 		(at 58.42 86.36)
 		(uuid "dfb4d05d-6d62-497a-8425-8bfcd36e1f4c")
 	)
@@ -3957,6 +4035,16 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 157.48) (xy 365.76 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49cc01ea-dcf5-439c-8191-aa16c1655659")
+	)
+	(wire
+		(pts
 			(xy 116.84 38.1) (xy 125.73 38.1)
 		)
 		(stroke
@@ -4084,6 +4172,26 @@
 			(type default)
 		)
 		(uuid "6218a1c4-558f-4024-991a-583f8c386812")
+	)
+	(wire
+		(pts
+			(xy 386.08 157.48) (xy 389.89 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "652c770c-2403-471e-b357-216fb9869adb")
+	)
+	(wire
+		(pts
+			(xy 389.89 157.48) (xy 389.89 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b84a33-1864-4558-afe1-55967a6ee36a")
 	)
 	(wire
 		(pts
@@ -4417,6 +4525,16 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 130.81) (xy 354.33 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a662c15e-96af-47ae-966d-40fedfa456a4")
+	)
+	(wire
+		(pts
 			(xy 31.75 40.64) (xy 43.18 40.64)
 		)
 		(stroke
@@ -4457,6 +4575,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 130.81) (xy 354.33 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac71141a-25be-4fc1-be48-9a1d45c372e5")
+	)
+	(wire
+		(pts
 			(xy 85.09 33.02) (xy 78.74 33.02)
 		)
 		(stroke
@@ -4474,16 +4602,6 @@
 			(type default)
 		)
 		(uuid "ae946272-71a8-47ef-8d4c-ff3deeb75d26")
-	)
-	(wire
-		(pts
-			(xy 353.06 130.81) (xy 365.76 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1625bd8-7500-4a4b-b624-261abc830516")
 	)
 	(wire
 		(pts
@@ -4524,6 +4642,16 @@
 			(type default)
 		)
 		(uuid "b45785f2-3ca3-46e4-8157-dfc92f96f82c")
+	)
+	(wire
+		(pts
+			(xy 365.76 135.89) (xy 365.76 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5d0e829-4fcb-4f71-8ad1-343836d11de3")
 	)
 	(wire
 		(pts
@@ -4694,6 +4822,16 @@
 			(type default)
 		)
 		(uuid "ce2bbbca-e70a-47a4-9813-7f4582383781")
+	)
+	(wire
+		(pts
+			(xy 389.89 135.89) (xy 365.76 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf14b8b7-12d0-40d1-b195-09fe7f0df41e")
 	)
 	(wire
 		(pts
@@ -5610,6 +5748,90 @@
 		)
 	)
 	(symbol
+		(lib_name "SK6812SIDE_1")
+		(lib_id "todbot_stuff:SK6812SIDE")
+		(at 375.92 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0110a34e-72c0-4ad2-9b03-641dd5b5c36e")
+		(property "Reference" "LED18"
+			(at 375.412 150.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812SIDE"
+			(at 375.412 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "todbot_stuff:LED-SMD_4P-L4.0-W1.6-L-keepoutrev"
+			(at 375.92 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 375.92 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5378721"
+			(at 375.92 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c076e6c7-6e1d-4f5a-9e18-ccaa8933dcb7")
+		)
+		(pin "2"
+			(uuid "af8e2069-8cb6-4dd3-8466-0f12f0f85d22")
+		)
+		(pin "4"
+			(uuid "305efbee-3a48-46d6-9a33-f60c37b8cb4b")
+		)
+		(pin "3"
+			(uuid "ee755aae-73cc-478f-a691-39f7a9eed878")
+		)
+		(instances
+			(project "picotouch_pad"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "LED18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 262.89 92.71 0)
 		(unit 1)
@@ -6188,7 +6410,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0be76f2b-169d-45a1-b64a-0fa2c1a9fbbf")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 45.466 134.62 0)
 			(effects
 				(font
@@ -6242,7 +6464,71 @@
 		(instances
 			(project "picotouch_pad"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
-					(reference "C20")
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 48.26 240.03 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d4bef3e-6232-4bc2-8634-d60455e68f46")
+		(property "Reference" "H1"
+			(at 50.8 238.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 50.8 241.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 48.26 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 48.26 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -6387,7 +6673,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "151367fa-efde-4cf4-af28-20409850eb34")
-		(property "Reference" "C18"
+		(property "Reference" "C19"
 			(at 358.394 118.11 0)
 			(effects
 				(font
@@ -6441,7 +6727,7 @@
 		(instances
 			(project "picotouch_pad2a"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
-					(reference "C18")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -6742,6 +7028,75 @@
 			(project "picotouch_mk2"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 364.49 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c503456-3184-4dc2-88ec-874dcc13f394")
+		(property "Reference" "C18"
+			(at 358.394 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 358.394 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 365.4552 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 364.49 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 364.49 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "133a76a3-f406-4bf2-8b6c-ceb4b3bddd4f")
+		)
+		(pin "1"
+			(uuid "c583d244-9651-4c8e-9a9a-aea144e7ce5e")
+		)
+		(instances
+			(project "picotouch_pad"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -9658,6 +10013,71 @@
 			(project "picotouch_mk2"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "PAD15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 364.49 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49ab2874-2a88-460c-b8ef-72ab16fb7e78")
+		(property "Reference" "#PWR0124"
+			(at 364.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 361.442 150.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 364.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7a97394-7a85-4276-b806-ab12a6f2d8ba")
+		)
+		(instances
+			(project "picotouch_pad"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -12725,6 +13145,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 365.76 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "740cdfde-dc00-4bd0-bfc5-9d43a2c0d4f2")
+		(property "Reference" "#PWR0125"
+			(at 369.57 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 363.22 153.416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 365.76 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 365.76 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b0f7b1e-7f2a-4d2f-b8b3-4b16e5b4f870")
+		)
+		(instances
+			(project "picotouch_pad"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "todbot_stuff:Capacitive_Button")
 		(at 293.37 219.71 0)
 		(unit 1)
@@ -15099,6 +15584,71 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 364.49 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a10ceb9f-7208-4168-bd95-d9d4c3c20451")
+		(property "Reference" "#PWR0120"
+			(at 364.49 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 360.68 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.49 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 364.49 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65a9b098-79ab-4f64-9555-70b56b89e7b3")
+		)
+		(instances
+			(project "picotouch_pad"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 200.66 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15222,6 +15772,72 @@
 			(project "picotouch_mk2"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 386.08 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3f21f79-7d05-4133-bf8c-29514b86572a")
+		(property "Reference" "#PWR0126"
+			(at 392.43 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 387.858 153.416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 386.08 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 386.08 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8a18835-08d3-40a9-8392-0231a2e940b9")
+		)
+		(instances
+			(project "picotouch_pad"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -16058,6 +16674,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 48.26 245.11 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b050043f-cc15-43da-8f9b-de6159605fa0")
+		(property "Reference" "H2"
+			(at 50.8 243.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 50.8 246.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 48.26 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 48.26 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "picotouch_pad"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 198.12 118.11 0)
 		(unit 1)
@@ -16601,7 +17281,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "baf4d6fd-c43b-4634-a5e0-a76d55c3c5a1")
-		(property "Reference" "C19"
+		(property "Reference" "C20"
 			(at 100.076 135.89 0)
 			(effects
 				(font
@@ -16655,7 +17335,7 @@
 		(instances
 			(project "picotouch_pad"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
-					(reference "C19")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -17446,7 +18126,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c40e5324-41ea-40ec-9acb-77a368043b89")
-		(property "Reference" "LED18"
+		(property "Reference" "LED19"
 			(at 375.412 123.698 0)
 			(effects
 				(font
@@ -17513,7 +18193,7 @@
 		(instances
 			(project "picotouch_pad2a"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
-					(reference "LED18")
+					(reference "LED19")
 					(unit 1)
 				)
 			)
