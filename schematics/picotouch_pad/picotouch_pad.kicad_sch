@@ -3576,10 +3576,6 @@
 		(uuid "e51f57b8-7220-407b-911d-97216eaad395")
 	)
 	(no_connect
-		(at 78.74 35.56)
-		(uuid "e59b1a55-7c35-41e4-a8b6-9249a3c54152")
-	)
-	(no_connect
 		(at 60.96 86.36)
 		(uuid "eb32f968-262d-4aa5-b0d0-137cec31146f")
 	)
@@ -4585,6 +4581,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 35.56) (xy 91.44 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acc0a443-d5cc-4a95-a1dd-4e2907205d6b")
+	)
+	(wire
+		(pts
 			(xy 85.09 33.02) (xy 78.74 33.02)
 		)
 		(stroke
@@ -5052,6 +5058,16 @@
 			(type default)
 		)
 		(uuid "fba53a06-f933-4506-b56d-2e505291b357")
+	)
+	(wire
+		(pts
+			(xy 91.44 33.02) (xy 91.44 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcb28e74-2bda-4eb4-a68e-e582f21480ab")
 	)
 	(rectangle
 		(start 15.24 107.315)
@@ -5742,6 +5758,71 @@
 			(project "picotouch_pad"
 				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
 					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 91.44 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00493a19-97d3-42c2-b7de-a1967f5ba9ec")
+		(property "Reference" "#PWR0127"
+			(at 91.44 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 91.694 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 91.44 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37c169b0-1c3e-4be2-be32-a95c5ce6c93f")
+		)
+		(instances
+			(project "picotouch_pad"
+				(path "/a83b8b47-e572-48e2-b6f7-0ec1c4c903c4"
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
